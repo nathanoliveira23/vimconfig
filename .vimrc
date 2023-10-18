@@ -1,5 +1,4 @@
 call plug#begin()
-Plug 'ntk148v/vim-horizon'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
@@ -16,16 +15,10 @@ call plug#end()
 " if you don't set this option, this color might not correct
 set termguicolors
 
-colorscheme horizon
+# colorscheme 
 
 " lightline
-let g:lightline = {}
-let g:lightline.colorscheme = 'horizon'
 
-" or this line
-let g:lightline = {'colorscheme' : 'horizon'}
-
-:let g:lightline.colorscheme = 'horizon'
 ":call lightline#init()
 ":call lightline#colorscheme()
 
